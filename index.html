@@ -10,6 +10,9 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" rel="stylesheet" type="text/css" href="https://fonts.google.com/specimen/Fraunces" />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Product preview card component</title>
   </head>
@@ -20,7 +23,11 @@
           media="(max-width: 40rem)"
           srcset="./images/image-product-mobile.jpg"
         />
-        <img src="./images/image-product-desktop.jpg" alt="Gabrielle Channel" class="img"/>
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt="Gabrielle Channel"
+          class="img"
+        />
       </picture>
 
       <div class="content content-flex">
@@ -38,10 +45,10 @@
           <span class="old-price">$169.99</span>
         </div>
 
-        <a href="/" class="cart-btn">Add to Cart</a>
+        <a href="/" class="cart-btn"
+          ><img src="./images/icon-cart.svg" />Add to Cart</a
+        >
       </div>
-      
-      
     </main>
   </body>
 </html>
