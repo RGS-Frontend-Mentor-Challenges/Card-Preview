@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Fraunces');
+@import url("https://fonts.google.com/specimen/Fraunces");
 
 * {
   box-sizing: border-box;
@@ -107,7 +107,8 @@ body {
   body {
     width: 100vw;
     height: 100vw;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 15rem;
   }
 
   .main {
@@ -135,12 +136,5 @@ body {
     height: 25rem;
     justify-content: space-around;
     padding: 1.5rem;
-  }
-}
-
-@media (min-width: 100rem) {
-  body {
-    display: flex;
-    align-items: flex-start;
   }
 }
