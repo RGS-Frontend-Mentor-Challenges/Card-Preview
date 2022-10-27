@@ -1,15 +1,16 @@
 :root {
   --general-bg: hsl(32, 76%, 80%);
-  --main-bg-color:hsl(0, 0%, 100%);
+  --main-bg-color: hsl(0, 0%, 100%);
   --title-font-color: hsl(212, 21%, 14%);
   --font-color: hsl(228, 12%, 48%);
   --price-font-color: hsl(158, 36%, 37%);
-  --cart-btn-bg-color:hsl(158, 36%, 37%);
-  --cart-text-color:hsl(0, 0%, 100%);
+  --cart-btn-bg-color: hsl(158, 36%, 37%);
+  --cart-text-color: hsl(0, 0%, 100%);
   --default-font-size: 14px;
   --title-weight: 700;
-  --font-family:"Fraunces", sans-serif;
+  --font-family: "Fraunces", sans-serif;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,16 +22,9 @@ body {
   background-color: var(--general-bg);
   color: var(--font-color);
   font-size: var(--default-font-size);
-  font-family: "Fraunces";
-  display: flex;
-  justify-content: center;
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   width: 85vw;
   height: auto;
   margin-top: 1.4rem;
@@ -98,6 +92,18 @@ body {
   gap: 1rem;
 }
 /* Positioning */
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .pricing {
   display: flex;
