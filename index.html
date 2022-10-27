@@ -12,12 +12,16 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" rel="stylesheet" type="text/css" href="https://fonts.google.com/specimen/Fraunces" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fraunces"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <main class="main main-flex">
+    <section class="main main-flex" role="main">
       <picture class="picture">
         <source
           media="(max-width: 31rem)"
@@ -25,15 +29,15 @@
         />
         <img
           src="./images/image-product-desktop.jpg"
-          alt="Gabrielle Channel"
+          alt="Gabrielle Channel Flask"
           class="img"
         />
       </picture>
 
       <div class="content content-flex">
-        <h1 class="main-title">Perfume</h1>
+        <p class="content-title">Perfume</p>
 
-        <h2 class="product-title">Gabrielle Essence Eau De Parfum</h2>
+        <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
 
         <p class="descriptive">
           A floral, solar and voluptuous interpretation composed by Olivier
@@ -45,10 +49,10 @@
           <span class="old-price">$169.99</span>
         </div>
 
-        <a href="/" class="cart-btn"
-          ><img src="./images/icon-cart.svg" alt=""/>Add to Cart</a
-        >
+        <a href="/" class="cart-btn">
+          <img src="./images/icon-cart.svg" alt="" />Add to Cart
+        </a>
       </div>
-    </main>
+    </section>
   </body>
 </html>
